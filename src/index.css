@@ -1,9 +1,24 @@
-body {
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 16px;
 }
 
+.cake-wrapper {
+	perspective: 1000px;
+}
+
+.cake {
+	transform: rotateY(360deg);
+	animation: rotateAnimation 8s linear infinite;
+}
+
+@keyframes rotateAnimation {
+	from {
+		transform: rotateY(360deg);
+	}
+	to {
+		transform: rotateY(0deg);
+	}
+}
