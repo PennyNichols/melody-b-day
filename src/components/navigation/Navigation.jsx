@@ -3,7 +3,7 @@ import { FaBirthdayCake } from "react-icons/fa";
 import { Hamburger, Logo, Menu, MenuLink, Nav } from "./NavigationStyle";
 
 const Navigation = () => {
-  const [isOpen, setIsOpen] = useState(true);
+  const [isOpen, setIsOpen] = useState(false);
   console.log(isOpen);
   return (
     <Nav>
