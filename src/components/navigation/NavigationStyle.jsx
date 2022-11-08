@@ -6,15 +6,15 @@ export const Nav = styled.div`
 	justify-content: space-between;
 	align-items: center;
 	flex-wrap: wrap;
-	background-color: rgba(255,255,255,.5);
-    backdrop-filter: blur(5px);
+	background-color: rgba(255,255,255,.2);
+    backdrop-filter: blur(3px);
 	height: 85px;
 	font-size: 2rem;
     perspective: 1000px;
     `;
 
 export const Logo = styled(Link)`
-    color: #6c03ff;
+    color: #42009e;
 	text-decoration: none;
 	font-size: 3.5rem;
     margin: 0 0 1rem 1rem;
@@ -38,7 +38,7 @@ export const Hamburger = styled.div`
   span {
     height: 4px;
     width: 25px;
-    background-color: #6c03ff;
+    background-color: #42009e;
     margin-bottom: 4px;
     border-radius: 5px;
   }
@@ -69,25 +69,25 @@ export const MenuLink = styled(NavLink)`
 	cursor: pointer;
 	text-align: center;
 	text-decoration: none;
-    color: #6c03ff;
+    color: #42009e;
     transition: all 0.3s ease-in;
 	font-size: 2rem;
 	font-family: "Girassol", sans-serif;
 
 	&:hover {
-        color: #9e6ce4;
+        color: #42009e;
         font-weight: bold;
 	}
 
 	&.active {
-        color: #9e6ce4;
+        color: #42009e;
 		font-weight: bold;
 	}
 
 	@media (max-width: 768px) {
 		background-color: rgba(255,255,255,.5);
         backdrop-filter: blur(5px);
-		border: 1px solid #6c03ff;
+		border: 1px solid #42009e;
 		border-radius: 10px;
 		width: 100%;
 	}
