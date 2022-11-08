@@ -1,19 +1,24 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-size: 16px;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
-
+/* 
 .cake-wrapper {
+  
 	perspective: 1000px;
 }
 
 .cake {
 	transform: rotateY(360deg);
 	animation: rotateAnimation 8s linear infinite;
+  color: rgb(116, 0, 239);
+	
 }
-
+span{
+  color: rgb(116, 0, 239);
+  
+}
 @keyframes rotateAnimation {
 	from {
 		transform: rotateY(360deg);
@@ -21,4 +26,4 @@
 	to {
 		transform: rotateY(0deg);
 	}
-}
+} */
