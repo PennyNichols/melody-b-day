@@ -6,7 +6,7 @@ export const Nav = styled.div`
 	justify-content: space-between;
 	align-items: center;
 	flex-wrap: wrap;
-	background-color: rgba(255,255,255,.2);
+	background-color: rgba(255,255,255,.4);
     backdrop-filter: blur(3px);
 	height: 85px;
 	font-size: 2rem;
