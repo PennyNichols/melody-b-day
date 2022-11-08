@@ -9,7 +9,7 @@ import Navigation from './components/navigation/Navigation';
 
 function App() {
   return (
-    <div style={{width: '100vw', height:'100%', minHeight: '100vh',  backgroundImage:'./assets/bg.jpg', backgroundPosition: 'center', backgroundSize: 'cover'}} >
+    <div style={{width: '100vw', height:'100%', minHeight: '100vh',  backgroundImage:"url(https://github.com/PennyNichols/melody-b-day/blob/master/src/assets/bg.jpg?raw=true)", backgroundPosition: 'center', backgroundSize: 'cover'}} >
       <Navigation />
       <Routes>
         <Route path='/' element={<Home/>} />
